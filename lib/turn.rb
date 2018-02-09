@@ -47,7 +47,7 @@ def turn(board)
   if valid_move?(board,index) == true
     move(board, index, char = "X")
   else
-    puts "Invalid entry. Please enter another number."
+    turn(board)
 end
 end
 
