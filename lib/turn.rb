@@ -13,7 +13,7 @@ def input_to_index(input)
   index = converted_input - 1
 end
 
-def position_taken?(board, input)
+def position_taken?(board, :input_to_input)
   input_to_index(input)
   if board[input] == " " || board[input] == "" || board[input] = nil 
     return false 
