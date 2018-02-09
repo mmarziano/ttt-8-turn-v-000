@@ -44,11 +44,13 @@ end
 def turn(board)
   puts "Please enter 1-9:"
   input = gets.strip
-  input_to_index(input).call
-  if valid_move?(board,index) == true
-    move(board, index, char = "X")
+  if input.between?(1,9)
+     input_to_index(input) = selection
+     move(board,selection, char = "X")
   else
-    turn(board)
-end
+    puts "Invalid entry: Please enter 1-9:"
+  end 
+  
+  
 end
 
