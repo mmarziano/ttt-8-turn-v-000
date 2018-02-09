@@ -50,4 +50,5 @@ def turn(board)
   else
     puts "Invalid entry. Please enter another number."
 end
+end
 
