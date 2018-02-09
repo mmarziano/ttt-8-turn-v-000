@@ -22,8 +22,8 @@ def position_taken?(board, :input_to_input)
 end
 
 
-def valid_move?(board, :input_to_index)
-  if index.between?(0,8) && position_taken?(board, :input_to_index) == false
+def valid_move?(board, index)
+  if index.between?(0,8) && position_taken?(board, index) == false
     return true 
   else
     return false
