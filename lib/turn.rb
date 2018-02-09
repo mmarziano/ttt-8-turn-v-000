@@ -14,9 +14,9 @@ def input_to_index(input)
 end
 
 def position_taken?(board, :input_to_input)
-  if board[input] == " " || board[input] == "" || board[input] = nil 
+  if board[index] == " " || board[index] == "" || board[index] = nil 
     return false 
-  else board[input] != "" || board[input] != " " 
+  else board[index] != "" || board[index] != " " 
     return true   
   end
 end
