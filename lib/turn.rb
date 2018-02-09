@@ -33,7 +33,7 @@ end
 
 
 def move(board, index, char = "X")
-  board[index] = ${char}
+  board[index] = $char}
   puts " " + board[0] + " " + "|" + " " + board[1] + " " + "|" + " " + board[2] + " "
   puts "-----------"
   puts " " + board[3] + " " + "|" + " " + board[4] + " " + "|" + " " + board[5] + " "
